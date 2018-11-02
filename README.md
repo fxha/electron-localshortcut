@@ -5,6 +5,12 @@ locally to a BrowserWindow instance, without using a Menu.
 
 This is built to circumvent [this Electron issue](https://github.com/atom/electron/issues/1334).
 
+---
+
+Patched version of `electron-localshortcut` to prevent the default event action. Please see [this issue](https://github.com/parro-it/electron-localshortcut/issues/69).
+
+---
+
 [![Travis Build Status](https://img.shields.io/travis/parro-it/electron-localshortcut/master.svg)](http://travis-ci.org/parro-it/electron-localshortcut)
 [![NPM module](https://img.shields.io/npm/v/electron-localshortcut.svg)](https://npmjs.org/package/electron-localshortcut)
 [![NPM downloads](https://img.shields.io/npm/dt/electron-localshortcut.svg)](https://npmjs.org/package/electron-localshortcut)

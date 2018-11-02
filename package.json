@@ -1,5 +1,5 @@
 {
-	"name": "electron-localshortcut",
+	"name": "@hfelix/electron-localshortcut",
 	"version": "3.1.0",
 	"description": "register/unregister a keyboard shortcut locally to a BrowserWindow instance, without using a Menu",
 	"repository": "parro-it/electron-localshortcut",
