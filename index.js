@@ -2,7 +2,7 @@
 const {app, BrowserWindow} = require('electron');
 const isAccelerator = require('electron-is-accelerator');
 const equals = require('keyboardevents-areequal');
-const {toKeyEvent} = require('keyboardevent-from-electron-accelerator');
+const {toKeyEvent, updateVirtualKeys:kbeUpdateVirtualKeys} = require('@hfelix/keyboardevent-from-electron-accelerator');
 const _debug = require('debug');
 
 const debug = _debug('electron-localshortcut');
@@ -308,11 +308,16 @@ function isRegistered(win, accelerator) {
 	_checkAccelerator(accelerator);
 }
 
+function updateVirtualKeys(vkeys) {
+	kbeUpdateVirtualKeys(vkeys);
+}
+
 module.exports = {
 	register,
 	unregister,
 	isRegistered,
 	unregisterAll,
 	enableAll,
-	disableAll
+	disableAll,
+	updateVirtualKeys
 };

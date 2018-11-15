@@ -7,19 +7,14 @@ This is built to circumvent [this Electron issue](https://github.com/atom/electr
 
 ---
 
-Patched version of `electron-localshortcut` to prevent the default event action. Please see [this issue](https://github.com/parro-it/electron-localshortcut/issues/69).
+Patched version of `@hfelix/electron-localshortcut` to prevent the default event action. Please see [this issue](https://github.com/parro-it/electron-localshortcut/issues/69).
 
 ---
-
-[![Travis Build Status](https://img.shields.io/travis/parro-it/electron-localshortcut/master.svg)](http://travis-ci.org/parro-it/electron-localshortcut)
-[![NPM module](https://img.shields.io/npm/v/electron-localshortcut.svg)](https://npmjs.org/package/electron-localshortcut)
-[![NPM downloads](https://img.shields.io/npm/dt/electron-localshortcut.svg)](https://npmjs.org/package/electron-localshortcut)
-[![Greenkeeper badge](https://badges.greenkeeper.io/parro-it/electron-localshortcut.svg)](https://greenkeeper.io/)
 
 # Installation
 
 ```bash
-npm install --save electron-localshortcut
+npm install --save @hfelix/electron-localshortcut
 ```
 
 # Usage
